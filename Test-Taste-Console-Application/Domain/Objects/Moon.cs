@@ -27,6 +27,7 @@ namespace Test_Taste_Console_Application.Domain.Objects
         /// Average surface temperature of the moon, in Kelvin (nullable if data not provided).
         /// </summary>
         public double? Temperature { get; set; }
+        public object AvgTemp { get; internal set; }
 
         /// <summary>
         /// Constructs a Moon domain object from its DTO.

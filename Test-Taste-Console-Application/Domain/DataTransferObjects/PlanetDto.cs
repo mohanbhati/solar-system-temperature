@@ -8,5 +8,6 @@ namespace Test_Taste_Console_Application.Domain.DataTransferObjects
         public string Id { get; set; }
         public float SemiMajorAxis { get; set; }
         public ICollection<MoonDto> Moons { get; set; }
+        public bool IsPlanet { get; internal set; }
     }
 }
